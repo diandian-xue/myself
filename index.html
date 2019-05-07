@@ -1,1 +1,22 @@
-Hello world!  My name is diandian.
+<html>
+<head>
+<title>Hello World!</title>
+</head>
+
+
+<body>
+	<input id="content"></input>
+	<button onclick="onClick()">xx</button>
+	<audio src="xx.mp3" controls="controls"></audio>
+	
+	<script>
+		var i = 0;
+		function onClick(){
+			i += 1;
+			var input = document.getElementById("content")
+			input.value = "hello world:" + i;
+		}
+	</script>
+</body>
+
+</html>
